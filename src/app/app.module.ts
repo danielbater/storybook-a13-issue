@@ -7,6 +7,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { DummyComponent } from './dummy/dummy.component';
 import { FredModule } from './fred/fred.module';
 import { BarneyModule } from './barney/barney.module';
+import { WilmaModule } from './wilma/wilma.module';
 
 @NgModule({
   declarations: [AppComponent, DummyComponent],
@@ -16,6 +17,7 @@ import { BarneyModule } from './barney/barney.module';
     MatSliderModule,
     FredModule,
     BarneyModule,
+    WilmaModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
